@@ -2,8 +2,16 @@ services:
   postgres:
     image: 'postgres:latest'
     environment:
+<<<<<<< HEAD
+      - 'POSTGRES_DB=BookingDB'
+      - 'POSTGRES_PASSWORD=admin'
+      - 'POSTGRES_USER=admin'
+    ports:
+      - '5433'
+=======
       - 'POSTGRES_DB=mydatabase'
       - 'POSTGRES_PASSWORD=secret'
       - 'POSTGRES_USER=myuser'
     ports:
       - '5432'
+>>>>>>> 26972bf88ddbf4632018919f41da0879167b1268

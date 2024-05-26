@@ -12,3 +12,7 @@ okta:
     issuer: https://actividad-o-auth-2.us.auth0.com/
     client-id: kUQhkFR4P45kkdg14rnH924T4dRJSbbN
     client-secret: wXWFxCIasqNsJnX-s11dC93YwDqqiw2xpdwzPxytXB_WcUlq-xnKJwEjmuiyylwZ
+<<<<<<< HEAD
+    audience: ${okta.oauth2.issuer}api/v2/
+=======
+>>>>>>> 26972bf88ddbf4632018919f41da0879167b1268
