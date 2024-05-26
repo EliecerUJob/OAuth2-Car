@@ -2,8 +2,14 @@ services:
   postgres:
     image: 'postgres:latest'
     environment:
+<<<<<<< HEAD
       - 'POSTGRES_DB=CarInventoryDB'
       - 'POSTGRES_PASSWORD=admin'
       - 'POSTGRES_USER=admin'
+=======
+      - 'POSTGRES_DB=mydatabase'
+      - 'POSTGRES_PASSWORD=secret'
+      - 'POSTGRES_USER=myuser'
+>>>>>>> 26972bf88ddbf4632018919f41da0879167b1268
     ports:
       - '5431'
