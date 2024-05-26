@@ -10,9 +10,5 @@
         <module name="CarInventory.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Payment.main" target="17" />
-      <module name="Payment.test" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
