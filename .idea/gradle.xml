@@ -4,10 +4,26 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Booking" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Booking" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/CarInventory" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/CarInventory" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Payment" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Payment" />
           </set>
         </option>
       </GradleProjectSettings>
