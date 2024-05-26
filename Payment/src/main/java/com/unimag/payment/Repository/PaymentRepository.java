@@ -1,6 +1,6 @@
-package com.unimag.payment.Repository;
+package com.unimag.payment.repository;
 
-import com.unimag.payment.Entity.PaymentEntity;
+import com.unimag.payment.entity.PaymentEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

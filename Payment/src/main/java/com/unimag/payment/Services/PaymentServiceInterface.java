@@ -1,10 +1,13 @@
-package com.unimag.payment.Services;
+package com.unimag.payment.services;
 
-import com.unimag.payment.Entity.PaymentEntity;
-import jakarta.persistence.GeneratedValue;
+import com.unimag.payment.entity.PaymentDTO;
+import com.unimag.payment.entity.PaymentDTOSave;
+
 
 import java.util.List;
+import java.util.UUID;
 
 public interface PaymentServiceInterface {
-
+    PaymentDTO processPayment(PaymentDTOSave payment);
+    PaymentDTO getPaymentById(UUID paymentId);
 }
