@@ -17,10 +17,8 @@ public class PaymentEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
-    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID bookingId;
     private long creditCard;
-    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID transactionId;
     private double amount;
     private STATUS status;

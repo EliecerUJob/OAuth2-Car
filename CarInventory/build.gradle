@@ -28,12 +28,9 @@ ext {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-<<<<<<< HEAD
+
     implementation 'org.springframework.boot:spring-boot-starter-web:3.2.5'
     //implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
-=======
-    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
->>>>>>> 26972bf88ddbf4632018919f41da0879167b1268
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     developmentOnly 'org.springframework.boot:spring-boot-docker-compose'
@@ -41,10 +38,6 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-<<<<<<< HEAD
-
-=======
->>>>>>> 26972bf88ddbf4632018919f41da0879167b1268
 }
 
 dependencyManagement {
