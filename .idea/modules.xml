@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Booking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Booking.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CarInventory.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CarInventory.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OAuth2.iml" filepath="$PROJECT_DIR$/OAuth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Payment.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Payment.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Payment.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Payment.test.iml" />
     </modules>
   </component>
 </project>
