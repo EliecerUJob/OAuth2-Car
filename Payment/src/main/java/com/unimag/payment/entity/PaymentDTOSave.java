@@ -5,7 +5,6 @@ import lombok.Builder;
 import java.util.UUID;
 
 @Builder
-
 public record PaymentDTOSave(
     UUID bookingId,
     UUID transactionId,
@@ -13,4 +12,5 @@ public record PaymentDTOSave(
     double amount,
     PaymentStatusEnum status
 ) {
+
 }

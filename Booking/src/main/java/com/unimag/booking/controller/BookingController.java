@@ -30,13 +30,3 @@ public class BookingController {
     }
 
 }
-
-/*
-{
-        "carId":"7d8fc86a-89d9-4302-9ba7-294bba4b5302",
-        "customerId":"7d8fc86a-89d9-4302-9ba7-294bba4b5302",
-        "status":"CONFIRMED",
-        "startDate":"2024-05-26T15:30",
-        "endDate":"2024-06-10T15:30"
-        }
-*/
