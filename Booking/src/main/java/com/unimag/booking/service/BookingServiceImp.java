@@ -2,11 +2,15 @@ package com.unimag.booking.service;
 
 import com.unimag.booking.entity.BookingDTO;
 import com.unimag.booking.entity.BookingDTOSave;
+import com.unimag.booking.entity.BookingEntity;
+import com.unimag.booking.exceptions.BookingNotFoundException;
 import com.unimag.booking.mapper.BookingMapper;
 import com.unimag.booking.repository.BookingRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 
+@Service
 public class BookingServiceImp implements BookingService{
 
     private final BookingRepository bookingRepository;
@@ -32,6 +36,7 @@ public class BookingServiceImp implements BookingService{
 
     @Override
     public BookingDTO getBookingById(UUID id) {
-        return null;
+        BookingEntity entity = bookingRepository.findById(id).orElseThrow(BookingNotFoundException::new);
+        return bookingMapper.toDto(entity);
     }
 }
