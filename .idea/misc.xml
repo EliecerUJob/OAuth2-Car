@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Booking" />
     <file type="web" url="file://$PROJECT_DIR$/CarInventory" />
+    <file type="web" url="file://$PROJECT_DIR$/CustomerService" />
     <file type="web" url="file://$PROJECT_DIR$/mvc-login" />
     <file type="web" url="file://$PROJECT_DIR$/Payment" />
   </component>
