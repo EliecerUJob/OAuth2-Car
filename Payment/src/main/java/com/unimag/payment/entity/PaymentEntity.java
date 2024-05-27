@@ -1,4 +1,5 @@
-package com.unimag.payment.Entity;
+
+package com.unimag.payment.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -12,14 +13,14 @@ import java.util.UUID;
 @Entity
 @Getter
 @Setter
-
 public class PaymentEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
     private UUID bookingId;
-    private long creditCard;
     private UUID transactionId;
+    private long creditCard;
     private double amount;
-    private STATUS status;
+    private PaymentStatusEnum status;
+
 }
