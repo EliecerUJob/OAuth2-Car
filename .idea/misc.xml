@@ -5,8 +5,16 @@
     <file type="web" url="file://$PROJECT_DIR$/Booking" />
     <file type="web" url="file://$PROJECT_DIR$/CarInventory" />
     <file type="web" url="file://$PROJECT_DIR$/CustomerService" />
+    <file type="web" url="file://$PROJECT_DIR$/discovery-service" />
     <file type="web" url="file://$PROJECT_DIR$/mvc-login" />
     <file type="web" url="file://$PROJECT_DIR$/Payment" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_22" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

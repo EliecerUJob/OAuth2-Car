@@ -27,8 +27,8 @@ public class PaymentController {
 
     @PostMapping("/processPayment")
     public ResponseEntity<PaymentDTO>processPayment(@RequestBody PaymentDTOSave dtoSave){
-        //paymentService.processPayment(dtoSave);
-        return new ResponseEntity<>(paymentService.processPayment(dtoSave), HttpStatus.CREATED);
+        paymentService.processPayment(dtoSave);
+        return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
 }

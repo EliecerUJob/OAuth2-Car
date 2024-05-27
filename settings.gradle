@@ -1,0 +1,6 @@
+rootProject.name = 'OAuth2-RentACar'
+
+include 'Booking'
+include 'CarInventory'
+include 'CustomerService'
+include 'Payment'

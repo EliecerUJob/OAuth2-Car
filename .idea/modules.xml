@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Booking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Booking.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CarInventory.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CarInventory.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OAuth2-RentACar.iml" filepath="$PROJECT_DIR$/OAuth2-RentACar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomerService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomerService.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Payment.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Payment.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvc-login.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mvc-login.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvc-login.test.iml" filepath="$PROJECT_DIR$/.idea/modules/mvc-login.test.iml" />
     </modules>
   </component>
 </project>
