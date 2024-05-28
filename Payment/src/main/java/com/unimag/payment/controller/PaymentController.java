@@ -7,7 +7,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 import java.util.UUID;
 
 @RestController
@@ -27,8 +26,8 @@ public class PaymentController {
 
     @PostMapping("/processPayment")
     public ResponseEntity<PaymentDTO>processPayment(@RequestBody PaymentDTOSave dtoSave){
-        //paymentService.processPayment(dtoSave);
-        return new ResponseEntity<>(paymentService.processPayment(dtoSave), HttpStatus.CREATED);
+        paymentService.processPayment(dtoSave);
+        return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
 }
