@@ -6,15 +6,25 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Booking.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Booking.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CarInventory.iml" filepath="$PROJECT_DIR$/.idea/modules/CarInventory.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CarInventory.test.iml" filepath="$PROJECT_DIR$/.idea/modules/CarInventory.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OAuth2.iml" filepath="$PROJECT_DIR$/OAuth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Booking/OAuth2-Car.Booking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Booking/OAuth2-Car.Booking.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CarInventory/OAuth2-Car.CarInventory.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CarInventory/OAuth2-Car.CarInventory.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Booking/OAuth2-Car.Booking.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Booking/OAuth2-Car.Booking.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OAuth2-Car.CarInventory.main.iml" filepath="$PROJECT_DIR$/.idea/modules/OAuth2-Car.CarInventory.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CarInventory/OAuth2-Car.CarInventory.test.iml" filepath="$PROJECT_DIR$/.idea/modules/CarInventory/OAuth2-Car.CarInventory.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomerService/OAuth2-Car.CustomerService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomerService/OAuth2-Car.CustomerService.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomerService/OAuth2-Car.CustomerService.test.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomerService/OAuth2-Car.CustomerService.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Payment/OAuth2-Car.Payment.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Payment/OAuth2-Car.Payment.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Payment/OAuth2-Car.Payment.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Payment/OAuth2-Car.Payment.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Payment/Payment.iml" filepath="$PROJECT_DIR$/Payment/Payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.unimag.CustomerService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.unimag.CustomerService.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.unimag.CustomerService.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.unimag.CustomerService.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.unimag.Payment.iml" filepath="$PROJECT_DIR$/.idea/modules/com.unimag.Payment.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.unimag.Payment.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.unimag.Payment.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.unimag.Payment.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.unimag.Payment.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery-service.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvc-login.iml" filepath="$PROJECT_DIR$/.idea/modules/mvc-login.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvc-login.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mvc-login.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvc-login.test.iml" filepath="$PROJECT_DIR$/.idea/modules/mvc-login.test.iml" />
