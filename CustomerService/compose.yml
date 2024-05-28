@@ -1,0 +1,9 @@
+services:
+  CustomerService:
+    image: 'postgres:latest'
+    environment:
+      POSTGRES_DB: CustomerService
+      POSTGRES_PASSWORD: admin
+      POSTGRES_USER: admin
+    ports:
+      - "5435:5432"

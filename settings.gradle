@@ -1,0 +1,6 @@
+rootProject.name = 'OAuth2-Car'
+
+include 'Booking'
+include 'CarInventory'
+include 'CustomerService'
+include 'Payment'

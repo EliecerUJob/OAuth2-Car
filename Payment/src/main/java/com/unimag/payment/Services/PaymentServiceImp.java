@@ -8,7 +8,6 @@ import com.unimag.payment.entity.PaymentStatusEnum;
 import com.unimag.payment.mapper.PaymentMapper;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.UUID;
 
 @Service

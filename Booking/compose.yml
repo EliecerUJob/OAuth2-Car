@@ -1,0 +1,11 @@
+services:
+  Booking:
+    image: 'postgres:latest'
+    environment:
+      POSTGRES_DB: Booking
+      POSTGRES_PASSWORD: admin
+      POSTGRES_USER: admin
+    ports:
+      - "5433:5432"
+    expose:
+      - 5432
