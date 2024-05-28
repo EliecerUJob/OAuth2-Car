@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.32/17d46b3e205515e1e8efd3ee4d57ce8018914163/lombok-1.18.32.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.5.5.Final/897f6f115930b936287bef552bf5fe28cc64717d/mapstruct-processor-1.5.5.Final.jar" />
+        </processorPath>
+        <module name="OAuth2-Car.Payment.main" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Booking" target="17" />
+      <module name="Booking.main" target="17" />
+      <module name="Booking.test" target="17" />
+      <module name="CarInventory" target="17" />
+      <module name="CarInventory.main" target="17" />
+      <module name="CarInventory.test" target="17" />
+      <module name="com.unimag.CustomerService" target="17" />
+      <module name="com.unimag.CustomerService.main" target="17" />
+      <module name="com.unimag.CustomerService.test" target="17" />
+      <module name="com.unimag.Payment" target="17" />
+      <module name="com.unimag.Payment.main" target="17" />
+      <module name="com.unimag.Payment.test" target="17" />
+      <module name="CustomerService" target="17" />
+      <module name="CustomerService.main" target="17" />
+      <module name="CustomerService.test" target="17" />
       <module name="mvc-login" target="17" />
       <module name="mvc-login.main" target="17" />
       <module name="mvc-login.test" target="17" />
+      <module name="OAuth2-RentACar.Booking" target="17" />
+      <module name="OAuth2-RentACar.Booking.main" target="17" />
+      <module name="OAuth2-RentACar.Booking.test" target="17" />
+      <module name="OAuth2-RentACar.CarInventory" target="17" />
+      <module name="OAuth2-RentACar.CarInventory.main" target="17" />
+      <module name="OAuth2-RentACar.CarInventory.test" target="17" />
+      <module name="OAuth2-RentACar.CustomerService" target="17" />
+      <module name="OAuth2-RentACar.CustomerService.main" target="17" />
+      <module name="OAuth2-RentACar.CustomerService.test" target="17" />
+      <module name="OAuth2-RentACar.Payment" target="17" />
+      <module name="OAuth2-RentACar.Payment.main" target="17" />
+      <module name="OAuth2-RentACar.Payment.test" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

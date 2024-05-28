@@ -1,37 +1,9 @@
 services:
-
-  CarInventory:
+  OAuth:
     image: 'postgres:latest'
     environment:
-      POSTGRES_DB: CarInventory
+      POSTGRES_DB: OAuth
       POSTGRES_PASSWORD: admin
       POSTGRES_USER: admin
     ports:
-      - "5431:5432"
-
-  Booking:
-    image: 'postgres:latest'
-    environment:
-      POSTGRES_DB: Booking
-      POSTGRES_PASSWORD: admin
-      POSTGRES_USER: admin
-    ports:
-      - "5433:5432"
-
-  CustomerService:
-    image: 'postgres:latest'
-    environment:
-      POSTGRES_DB: CustomerService
-      POSTGRES_PASSWORD: admin
-      POSTGRES_USER: admin
-    ports:
-      - "5435:5432"
-
-  Payment:
-    image: 'postgres:latest'
-    environment:
-      POSTGRES_DB: Payment
-      POSTGRES_PASSWORD: admin
-      POSTGRES_USER: admin
-    ports:
-      - "5434:5432"
+      - "5436:5432"

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/v1/booking")
+@RequestMapping("/api/v1/bookingService")
 public class BookingController {
 
     private final BookingServiceImp bookingServiceImp;

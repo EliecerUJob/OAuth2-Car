@@ -32,6 +32,9 @@ dependencies {
 
     implementation 'com.okta.spring:okta-spring-boot-starter:3.0.6'
 
+    implementation 'org.springframework.boot:spring-boot-starter-amqp'
+    runtimeOnly 'io.micrometer:micrometer-registry-prometheus'
+
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'

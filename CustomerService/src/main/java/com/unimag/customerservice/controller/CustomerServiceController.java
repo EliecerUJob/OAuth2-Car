@@ -3,7 +3,6 @@ package com.unimag.customerservice.controller;
 import com.unimag.customerservice.entity.CustomerServiceDTO;
 import com.unimag.customerservice.entity.CustomerServiceDTOSave;
 import com.unimag.customerservice.service.CustomerServiceSerImp;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

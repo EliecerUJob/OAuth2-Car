@@ -4,6 +4,18 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Booking" />
+            <option value="$PROJECT_DIR$/CarInventory" />
+            <option value="$PROJECT_DIR$/CustomerService" />
+            <option value="$PROJECT_DIR$/Payment" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/Booking" />
         <option name="modules">
           <set>
@@ -16,14 +28,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/CarInventory" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/CustomerService" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/CustomerService" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -48,14 +52,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/discovery-service" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/mvc-login" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/mvc-login" />
           </set>
         </option>
       </GradleProjectSettings>

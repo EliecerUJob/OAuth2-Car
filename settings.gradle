@@ -1,4 +1,4 @@
-rootProject.name = 'OAuth2-RentACar'
+rootProject.name = 'OAuth2-Car'
 
 include 'Booking'
 include 'CarInventory'
