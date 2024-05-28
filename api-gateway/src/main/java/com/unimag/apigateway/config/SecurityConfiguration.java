@@ -10,11 +10,21 @@ import org.springframework.security.oauth2.client.web.DefaultOAuth2Authorization
 import org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestResolver;
 import org.springframework.security.oauth2.core.endpoint.OAuth2AuthorizationRequest;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.logout.LogoutHandler;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import java.io.IOException;
 import java.util.function.Consumer;
 
 @Configuration
 public class SecurityConfiguration {
+
+    @Value("${okta.oauth2.issuer}")
+    private String issuer;
+
+    @Value("${okta.oauth2.client-id}")
+    private String clientId;
+
     @Value("${okta.oauth2.audience:}")
     private String audience;
 
@@ -36,8 +46,21 @@ public class SecurityConfiguration {
                                         authorizationRequestResolver(this.clientRegistrationRepository)
                                 )
                         )
-                );
+                )
+                .logout(logout -> logout
+                        .addLogoutHandler(logoutHandler()));
         return http.build();
+    }
+
+    private LogoutHandler logoutHandler() {
+        return (request, response, authentication) -> {
+            try {
+                String baseUrl = ServletUriComponentsBuilder.fromCurrentContextPath().build().toUriString();
+                response.sendRedirect(issuer + "v2/logout?client_id=" + clientId + "&returnTo=" + baseUrl);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        };
     }
 
     private OAuth2AuthorizationRequestResolver authorizationRequestResolver(
